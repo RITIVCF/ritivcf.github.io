@@ -1044,3 +1044,20 @@
 			display: inline-block;
 			width: 5em;
 		}
+
+@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome|maki);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* maki */
+[class*="maki-"]:before {
+  font-family: 'maki', sans-serif;
+}
