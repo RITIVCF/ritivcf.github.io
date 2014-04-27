@@ -465,6 +465,34 @@
 				padding: 0;
 			}
 
+		input[type="email"] {
+			line-height: 2.2em;
+			border: solid 1px rgba(191, 203, 206, 0.42);
+			opacity: 50;
+		}
+			input[type="email"] textarea{
+				background-color: grey;
+			}
+/*			textarea {
+		-moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-o-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		background: none;
+		border: solid 1px rgba(124, 128, 129, 0.2);
+		color: inherit;
+		display: block;
+		padding: 0.75em;
+		text-decoration: none;
+		width: 100%;
+		outline: 0;
+	}*/
 /* Tables */
 
 	table {
