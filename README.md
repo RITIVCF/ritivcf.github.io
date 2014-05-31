@@ -10,13 +10,13 @@ The entire page is divided into 5 different parts. The source code is located in
 * Large group
 * Small groups
 
-### Banner - banner.html
+### Banner - _include/banner.html
 The banner holds the graphics on top. The background is one image, while the edge diagonal lines is another image overlay over.
-### Mission statement - mission.html
+### Mission statement - _include/mission.html
 This is the Mission statement.
-### Plug - plug.html
+### Plug - _include/plug.html
 This is useful for making certain information distinctive, such as Baseliea, expedition, or general "LOOK AT ME".
-### Large group - largegroup.html
+### Large group - _include/largegroup.html
 This holds a very large picture named "images/largegroup.jpg". With a short description of what is large group, and some event details.
 ### Small groups - _data/smallgroup.yml
 This is a YAML file, not an HTML file. The jekyll template will look into this specific file and generate the list of small groups. Archiving previous small groups list is really easy, simply rename it other than smallgroup.yml - "like old-2013-smallgroup.yml".
