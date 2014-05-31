@@ -1,0 +1,32 @@
+<section id="smallgroups" class="wrapper style3 container special">
+
+    <header class="major">
+        <h2>We study the Bible in <strong>Small Groups</strong></h2>
+    </header>   
+    {% for post in site.data.smallgroups %}
+    {%capture check %}{% cycle '</div>', '' %} {% endcapture %}
+    {% cycle '<div class="row">', '' %}
+        <div class="6u">
+            <section>
+                <header>
+                    <h3><strong>{{ post.title }}</strong></h3>
+                </header>
+                <p>
+                {{ post.time }}<br/>
+                {{ post.location }}<br/>
+                <a href="mailto:{{ post.leader_email }}" target="_blank">{{ post.leader_name }}</a>
+                </p>
+            </section>
+        </div>
+    {% cycle '', '</div>' %}
+    {% if forloop.last %}
+    {{check}}
+    {% endif %}
+    {% endfor %}    
+    <!-- <footer class="major">
+        <ul class="buttons">
+            <li><a href="#" class="button">See More</a></li>
+        </ul>
+    </footer> -->
+
+</section>

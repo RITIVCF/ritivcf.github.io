@@ -2,15 +2,26 @@
 title: IVCF + RIT
 email: ivcf@rit.edu
 description: "Intervarsity Christian Fellowship at Rochester Institute of Technology"
-baseurl: "/ritivcf"
+baseurl: ""
+copyright: "Intervarsity Christian Fellowship at RIT"
 url: "http://ritivcf.github.io"
 # pygments: true
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none
+
+safe: true
+lsi: false
+
+# github: [Repository metadata]
 
 github: ritivcf
 twitter: ritivcf
 facebook: ritivcf
 youtube: RITivcf
+
+exclude: [README.md, README.txt, LICENSE.txt, Gem*]
+
+collections:
+    smallgroups:
