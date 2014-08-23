@@ -2,7 +2,7 @@
 
 This page is hosted on github pages.
 
-The entire page is divided into 5 different parts. The source code is located in ```_include/*```. Being separated helps understand the site structure better. Please refer to _layout/default.html for general layout, and then index.html.
+The entire page is divided into 5 different parts. The source code is located in ```_include/*```. Being separated helps understand the site structure better. Please refer to ```_layout/default.html``` for general layout, and then index.html.
 
 * Banner
 * Mission statement
