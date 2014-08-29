@@ -2,7 +2,7 @@
 
     <header class="major">
         <h2>We study the Bible in <strong>Small Groups</strong></h2>
-	<h4>The schedule for the <strong>Small Groups</strong> will be available here soon.</h4>
+	<h4>Times and locations coming soon</h4>
     </header>   
     {% for post in site.data.smallgroups %}
     {%capture check %}{% cycle '</div>', '' %} {% endcapture %}
@@ -13,8 +13,12 @@
                     <h3><strong>{{ post.title }}</strong></h3>
                 </header>
                 <p>
+		{% if post.time %}	
                 {{ post.time }}<br/>
+		{% endif %}
+		{% if post.location %}
                 {{ post.location }}<br/>
+		{% endif %}
                 <a href="mailto:{{ post.leader_email }}" target="_blank">{{ post.leader_name }}</a>
                 </p>
             </section>
