@@ -1,25 +1,21 @@
-<section id="smallgroups" class="wrapper style3 container special">
+<section id="localchurches" class="wrapper style3 container special">
 
     <header class="major">
-        <h2>We study the Bible in <strong>Small Groups</strong></h2>
-	<h4>Times and locations coming soon</h4>
+        <h2>We go to <strong>Local Churches</strong> on Sundays</h2>
+	<h4>Point of contacts for ride sharing will be listed for each church soon</h4>
     </header>   
-    {% for post in site.data.smallgroups %}
+    {% for post in site.data.localchurches %}
     {%capture check %}{% cycle '</div>', '' %} {% endcapture %}
     {% cycle '<div class="row">', '' %}
         <div class="6u">
             <section>
                 <header>
-                    <h3><strong>{{ post.title }}</strong></h3>
+                    <h3><strong>{{ post.churchname }}</strong></h3>
                 </header>
                 <p>
 		{% if post.time %}	
                 {{ post.time }}<br/>
 		{% endif %}
-		{% if post.location %}
-                {{ post.location }}<br/>
-		{% endif %}
-                <a href="mailto:{{ post.leader_email }}" target="_blank">{{ post.leader_name }}</a>
                 </p>
             </section>
         </div>
