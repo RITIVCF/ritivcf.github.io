@@ -1,0 +1,33 @@
+<section id="localchurches" class="wrapper style3 container special">
+
+    <header class="major">
+        <h2>We go to <strong>Local Churches</strong> on Sundays</h2>
+	<h4>Point of contacts for ride sharing will be listed for each church soon</h4>
+    </header>   
+    {% for post in site.data.localchurches %}
+    {%capture check %}{% cycle '</div>', '' %} {% endcapture %}
+    {% cycle '<div class="row">', '' %}
+        <div class="6u">
+            <section>
+                <header>
+                    <h3><strong>{{ post.churchname }}</strong></h3>
+                </header>
+                <p>
+		{% if post.time %}	
+                {{ post.time }}<br/>
+		{% endif %}
+                </p>
+            </section>
+        </div>
+    {% cycle '', '</div>' %}
+    {% if forloop.last %}
+    {{check}}
+    {% endif %}
+    {% endfor %}    
+    <!-- <footer class="major">
+        <ul class="buttons">
+            <li><a href="#" class="button">See More</a></li>
+        </ul>
+    </footer> -->
+
+</section>
