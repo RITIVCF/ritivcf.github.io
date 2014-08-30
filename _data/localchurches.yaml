@@ -1,26 +1,53 @@
 - churchname: Calvary Chapel of Rochester
   time: Sunday 10AM
+  website: "http://calvaryrochester.com/"
+  ridespoc_name: Caleb Weeks
+  ridespoc_email: sxw6685@rit.edu
 
 - churchname: Covenant Life Church
   time: Sunday 10:30AM
+  website: "http://www.covlifechurch.net/"
+  ridespoc_name: 
+  ridespoc_email: 
 
 - churchname: Elim Gospel Church
-  time: Sunday 9AM, 10:45AM
+  time: Sunday 9:30AM, 11AM
+  website: "http://www.elimgospel.org/"
+  ridespoc_name:
+  ridespoc_email:
 
 - churchname: Epic Church
-  time: Sunday 10AM
+  time: Sunday 9:30AM, 11AM
+  website: "http://www.epicchurchny.com/"
+  ridespoc_name: Luke M.
+  ridespoc_email: ljm3103@rit.edu
 
 - churchname: Evangelical Church of Fairport
   time: Sunday 10:30AM
+  website: "http://www.ecfnet.org/"
+  ridespoc_name: Elisabeth Lachelt
+  ridespoc_email: ekl6218@rit.edu
 
 - churchname: The Father's House
-  time: Sunday 9:30AM, 11:30AM
+  time: Saturday 6PM & Sunday 9:30AM, 11:30AM
+  website: "http://www.tfhny.org/" 
+  ridespoc_name: Doug Smith
+  ridespoc_email: doug.smith525@gmail.com
 
 - churchname: Grace Road
   time: Sunday 9AM, 11AM
+  website: "http://www.graceroadchurch.org/"
+  ridespoc_name:
+  ridespoc_email:
 
 - churchname: Northridge Church
-  time: Sunday 9AM
+  time: Sunday 9AM, 10:45AM
+  website: "http://www.northridgerochester.com/"
+  ridespoc_name: Alyssa Recinella
+  ridespoc_email: anr6832@rit.edu
 
 - churchname: Ridgeland Community Church
   time: Sunday 10AM
+  website: "http://www.ridgelandchurch.org/"
+  ridespoc_name:
+  ridespoc_email:

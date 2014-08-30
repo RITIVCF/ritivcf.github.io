@@ -2,7 +2,6 @@
 
     <header class="major">
         <h2>We go to <strong>Local Churches</strong> on Sundays</h2>
-	<h4>Point of contacts for ride sharing will be listed for each church soon</h4>
     </header>   
     {% for post in site.data.localchurches %}
     {%capture check %}{% cycle '</div>', '' %} {% endcapture %}
@@ -10,12 +9,20 @@
         <div class="6u">
             <section>
                 <header>
+                    {% if post.website %}
+                      <a href="{{ post.website }}" target="_blank">
+                    {% endif %}
                     <h3><strong>{{ post.churchname }}</strong></h3>
+                    {% if post.website %}
+                      </a>
+                    {% endif %}
                 </header>
-                <p>
 		{% if post.time %}	
                 {{ post.time }}<br/>
 		{% endif %}
+		{% if post.ridespoc_name %}
+                Rides Contact: <a href="mailto:{{ post.ridespoc_email }}" target="_blank">{{ post.ridespoc_name }}</a><br/>
+		{% endif %} 
                 </p>
             </section>
         </div>
