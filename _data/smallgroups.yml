@@ -5,14 +5,14 @@
   leader_email: mga9177@rit.edu
 
 - title: Adventure/Outdoors/Sports
-  time:
-  location:
+  time: Sudays 1pm
+  location: Campus Center Room 1015
   leader_name: Tim Torres
   leader_email: txt5999@rit.edu
 
 - title: Freshmen
-  time:
-  location:
+  time: Thursdays 7pm
+  location: Across from Commons
   leader_name: Doug Smith
   leader_email: dws7152@rit.edu
 
@@ -29,8 +29,8 @@
   leader_email: txs4443@rit.edu
 
 - title: Artist
-  time:
-  location:
+  time: Thurdays 7pm
+  location: Campus Center Room 2740
   leader_name: Jessie Schnall
   leader_email: jls3131@rit.edu
 
@@ -41,8 +41,8 @@
   leader_email: aa9683@rit.edu
 
 - title: College of Health Sciences and Technology
-  time:
-  location:
+  time: Tuesdays 5pm
+  location: Campus Center Reading Room
   leader_name: Lydia Koelle
   leader_email: lxk5776@rit.edu
 
@@ -57,3 +57,9 @@
   location:
   leader_name: Rachel Du
   leader_email:
+
+- title: Faculty/Commuter
+  time: Tuesday 12-1pm
+  location: Alumni Room
+  leader_name: Mark Weber
+  leader_email: markwweber@gmail.com
