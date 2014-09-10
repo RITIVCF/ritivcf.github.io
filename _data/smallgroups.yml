@@ -17,8 +17,8 @@
   leader_email: dws7152@rit.edu
 
 - title: Graduate
-  time:
-  location:
+  time: Mondays 7pm 
+  location: Reading Room
   leader_name: Eric Fortunato
   leader_email: fortunato.eric@gmail.com
 
@@ -53,7 +53,7 @@
   leader_email: jmw7090@rit.edu
 
 - title: Campus Mandarin Fellowship
-  time:
+  time: 
   location:
   leader_name: Rachel Du
   leader_email:
@@ -63,3 +63,9 @@
   location: Alumni Room
   leader_name: Mark Weber
   leader_email: markwweber@gmail.com
+
+#- title: Creative Minds
+#  time: 
+#  location: 
+#  leader_name: Amanda Turk
+#  leader_email: ajt7837@rit.edu
