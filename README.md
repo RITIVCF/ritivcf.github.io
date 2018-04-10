@@ -1,4 +1,4 @@
-#Intervarsity Christian Fellowship Rochester Institute of Technology
+# Intervarsity Christian Fellowship Rochester Institute of Technology
 
 This page is hosted on github pages.
 
